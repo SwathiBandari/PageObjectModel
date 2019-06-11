@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object Model]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.liveproj.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="SignUp Test(failed)">
+    <classes>
+      <class name="com.liveproj.testcases.SignUpTest">
+        <methods>
+          <include name="signUpTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.liveproj.testcases.SignUpTest -->
+    </classes>
+  </test> <!-- SignUp Test(failed) -->
+</suite> <!-- Failed suite [Page Object Model] -->
