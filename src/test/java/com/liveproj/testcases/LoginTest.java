@@ -18,6 +18,6 @@ public class LoginTest extends PageClass {
 		HomePage home = new HomePage();
 		LoginPage lp = home.gotologin();
 		ZohoAppPage zp = lp.doLogin(data.get("username"),data.get("password"));
-		Assert.fail("LoginTest Failed");
+
 	}
 }
