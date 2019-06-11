@@ -196,6 +196,9 @@ public class PageClass {
 	
 	public static void quit() {
 		
+		click("profile_CSS");
+		click("Signout_CSS");
+		
 			driver.quit();
 			
 		}
