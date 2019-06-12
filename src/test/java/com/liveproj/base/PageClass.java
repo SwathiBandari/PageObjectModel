@@ -44,6 +44,8 @@ public class PageClass {
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest Test;
 	public static String browser;
+	
+	//update using Eclipse to Git
 
 	public PageClass() {
 		if (driver == null) {
