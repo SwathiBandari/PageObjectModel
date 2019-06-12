@@ -1,7 +1,5 @@
 package com.liveproj.testcases;
 
-import org.testng.annotations.Test;
-
 import com.liveproj.base.PageClass;
 import com.liveproj.pages.ProfilePage;
 
