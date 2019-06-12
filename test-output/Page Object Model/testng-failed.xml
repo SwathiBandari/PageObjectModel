@@ -6,13 +6,22 @@
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="com.liveproj.listeners.CustomListeners"/>
   </listeners>
-  <test thread-count="5" name="SignUp Test(failed)">
+  <test thread-count="5" name="Login Test(failed)">
     <classes>
-      <class name="com.liveproj.testcases.SignUpTest">
+      <class name="com.liveproj.testcases.LoginTest">
         <methods>
-          <include name="signUpTest" invocation-numbers="0"/>
+          <include name="loginTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.liveproj.testcases.SignUpTest -->
+      </class> <!-- com.liveproj.testcases.LoginTest -->
     </classes>
-  </test> <!-- SignUp Test(failed) -->
+  </test> <!-- Login Test(failed) -->
+  <test thread-count="5" name="Create Account Test(failed)">
+    <classes>
+      <class name="com.liveproj.testcases.CreateAccountTest">
+        <methods>
+          <include name="createAccountTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.liveproj.testcases.CreateAccountTest -->
+    </classes>
+  </test> <!-- Create Account Test(failed) -->
 </suite> <!-- Failed suite [Page Object Model] -->

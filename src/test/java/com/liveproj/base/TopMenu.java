@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.liveproj.pages.crm.accounts.AccountsPage;
 
-public class TopMenu extends PageClass {
+public class TopMenu {
 
 	WebDriver driver;
 	public TopMenu(WebDriver driver) {
@@ -26,7 +26,7 @@ public class TopMenu extends PageClass {
 	}
 
 	public AccountsPage gotoAccounts() {
-click("AccountsTab_XPATH");
+PageClass.click("AccountsTab_CSS");
 		return new AccountsPage();
 
 	}

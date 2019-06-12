@@ -198,8 +198,7 @@ public class PageClass {
 		
 		click("profile_CSS");
 		click("Signout_CSS");
-		
-			driver.quit();
+		driver.quit();
 			
 		}
 	}
