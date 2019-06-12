@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Page_Object_Model" class="navigator-link">
-              <span class="suite-name border-failed">Page Object Model</span>
+              <span class="suite-name border-passed">Page Object Model</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Page_Object_Model" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Page_Object_Model" class="hide-methods failed suite-Page_Object_Model"> (hide)</a> <!-- hide-methods failed suite-Page_Object_Model -->
-                      <a href="#" panel-name="suite-Page_Object_Model" class="show-methods failed suite-Page_Object_Model"> (show)</a> <!-- show-methods failed suite-Page_Object_Model -->
-                    </span>
-                    <div class="method-list-content failed suite-Page_Object_Model">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Page_Object_Model" title="com.liveproj.testcases.CreateAccountTest" class="method navigator-link" hash-for-method="createAccountTest({accountname=selenium, runmode=Y})">createAccountTest({accountname=selenium, runmode=Y})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Page_Object_Model -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,7 +102,17 @@
                     <div class="method-list-content passed suite-Page_Object_Model">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Page_Object_Model" title="com.liveproj.testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest({password=June@2019$, runmode=Y, username=saanwisrika@gmail.com})">loginTest({password=June@2019$, runmode=Y, username=saanwisrika@gmail.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Page_Object_Model" title="com.liveproj.testcases.CreateAccountTest" class="method navigator-link" hash-for-method="createAccountTest({accountname=selenium, runmode=Y})">createAccountTest({accountname=selenium, runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Page_Object_Model" title="com.liveproj.testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest({password=96gqee2022, runmode=Y, username=reportrecipient2019@gmail.com})">loginTest({password=96gqee2022, runmode=Y, username=reportrecipient2019@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Page_Object_Model" title="com.liveproj.testcases.LogoutTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Page_Object_Model -->
@@ -131,9 +127,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Page_Object_Model" class="panel Page_Object_Model">
-          <div class="suite-Page_Object_Model-class-failed">
+          <div class="suite-Page_Object_Model-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
+              <span class="class-name">com.liveproj.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({password=96gqee2022, runmode=Y, username=reportrecipient2019@gmail.com})">
+                  </a> <!-- loginTest({password=96gqee2022, runmode=Y, username=reportrecipient2019@gmail.com}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({password=96gqee2022, runmode=Y, username=reportrecipient2019@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Page_Object_Model-class-passed -->
+          <div class="suite-Page_Object_Model-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.liveproj.testcases.CreateAccountTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -143,50 +155,21 @@
                   </a> <!-- createAccountTest({accountname=selenium, runmode=Y}) -->
                   <span class="method-name">createAccountTest</span>
                   <span class="parameters">({accountname=selenium, runmode=Y})</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;Crm_Accounts_ACCOUNTNAME&quot;}
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NSWSYDNLP206&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\sbandari\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55244}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 736f026111f2fa35eebfd949392bb9cb
-*** Element info: {Using=id, value=Crm_Accounts_ACCOUNTNAME}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.liveproj.base.PageClass.type(PageClass.java:143)
-	at com.liveproj.pages.crm.accounts.CreateAccountPage.createaccount(CreateAccountPage.java:9)
-	at com.liveproj.testcases.CreateAccountTest.createAccountTest(CreateAccountTest.java:21)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Page_Object_Model-class-failed -->
+          </div> <!-- suite-Page_Object_Model-class-passed -->
           <div class="suite-Page_Object_Model-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.liveproj.testcases.LoginTest</span>
+              <span class="class-name">com.liveproj.testcases.LogoutTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest({password=June@2019$, runmode=Y, username=saanwisrika@gmail.com})">
-                  </a> <!-- loginTest({password=June@2019$, runmode=Y, username=saanwisrika@gmail.com}) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">({password=June@2019$, runmode=Y, username=saanwisrika@gmail.com})</span>
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -216,6 +199,11 @@ Session ID: 736f026111f2fa35eebfd949392bb9cb
       &lt;class name=&quot;com.liveproj.testcases.CreateAccountTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Create Account Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Logout Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.liveproj.testcases.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Logout Test --&gt;
 &lt;/suite&gt; &lt;!-- Page Object Model --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -231,6 +219,9 @@ Session ID: 736f026111f2fa35eebfd949392bb9cb
               </li>
               <li>
                 <span class="test-name">Create Account Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Logout Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -256,20 +247,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createAccountTest')
 data.setCell(0, 2, 'com.liveproj.testcases.CreateAccountTest')
-data.setCell(0, 3, 27024);
+data.setCell(0, 3, 16273);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest')
-data.setCell(1, 2, 'com.liveproj.testcases.LoginTest')
-data.setCell(1, 3, 3567);
+data.setCell(1, 1, 'logoutTest')
+data.setCell(1, 2, 'com.liveproj.testcases.LogoutTest')
+data.setCell(1, 3, 4007);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.liveproj.testcases.LoginTest')
+data.setCell(2, 3, 3054);
 window.suiteTableData['Page_Object_Model']= { tableData: data, tableDiv: 'times-div-Page_Object_Model'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Page_Object_Model">
               </div> <!-- times-div-Page_Object_Model -->
             </div> <!-- times-div -->
@@ -281,21 +276,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">loginTest({password=June@2019$, runmode=Y, username=saanwisrika@gmail.com})</span>
+              <span class="reporter-method-name">loginTest({password=96gqee2022, runmode=Y, username=reportrecipient2019@gmail.com})</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Wed_Jun_12_11_24_46_AEST_2019.jpg</span>
-                <span class="reporter-method-output"><a href=Wed_Jun_12_11_24_46_AEST_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output">Wed_Jun_12_13_31_49_AEST_2019.jpg</span>
+                <span class="reporter-method-output"><a href=Wed_Jun_12_13_31_49_AEST_2019.jpg>Screenshot</a></span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="_blank" href=Wed_Jun_12_11_24_46_AEST_2019.jpg><img src=Wed_Jun_12_11_24_46_AEST_2019.jpg height=200 width=200></img></a></span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Jun_12_13_31_49_AEST_2019.jpg><img src=Wed_Jun_12_13_31_49_AEST_2019.jpg height=200 width=200></img></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">createAccountTest({accountname=selenium, runmode=Y})</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Wed_Jun_12_11_25_17_AEST_2019.jpg</span>
-                <span class="reporter-method-output"><a href=Wed_Jun_12_11_25_17_AEST_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output">Wed_Jun_12_13_32_10_AEST_2019.jpg</span>
+                <span class="reporter-method-output"><a href=Wed_Jun_12_13_32_10_AEST_2019.jpg>Screenshot</a></span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="_blank" href=Wed_Jun_12_11_25_17_AEST_2019.jpg><img src=Wed_Jun_12_11_25_17_AEST_2019.jpg height=200 width=200></img></a></span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Jun_12_13_32_10_AEST_2019.jpg><img src=Wed_Jun_12_13_32_10_AEST_2019.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logoutTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">clicked on Profile</span>
+                <span class="reporter-method-output">Wed_Jun_12_13_32_17_AEST_2019.jpg</span>
+                <span class="reporter-method-output"><a href=Wed_Jun_12_13_32_17_AEST_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Jun_12_13_32_17_AEST_2019.jpg><img src=Wed_Jun_12_13_32_17_AEST_2019.jpg height=200 width=200></img></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -315,17 +320,22 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.liveproj.testcases.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">loginTest({password=June@2019$, runmode=Y, username=saanwisrika@gmail.com})</span>
+                <span class="method-name">loginTest({password=96gqee2022, runmode=Y, username=reportrecipient2019@gmail.com})</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.liveproj.testcases.CreateAccountTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">createAccountTest({accountname=selenium, runmode=Y})</span>
-                <span class="method-start">9308 ms</span>
+                <span class="method-start">8386 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.liveproj.testcases.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">28311 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

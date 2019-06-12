@@ -1,11 +1,14 @@
-12/06/2019 11:52:23 devpinoyLogger config file loaded
-12/06/2019 11:52:23 devpinoyLogger OR file loaded
-12/06/2019 11:52:28 devpinoyLogger Chrome Launched !!!
-12/06/2019 11:52:34 devpinoyLogger Navigated to:http://www.zoho.com
-12/06/2019 11:52:38 devpinoyLogger Clicking on an Element : Signin_CSS
-12/06/2019 11:52:39 devpinoyLogger Typing in an Element: Email_CSSValue of :reportrecipient2019@gmail.com
-12/06/2019 11:52:39 devpinoyLogger Typing in an Element: Password_CSSValue of :96gqee2022
-12/06/2019 11:52:39 devpinoyLogger Clicking on an Element : SigninButton_CSS
-12/06/2019 11:52:59 devpinoyLogger Clicking on an Element : gotoCRM_CSS
-12/06/2019 11:52:59 devpinoyLogger Clicking on an Element : AccountsTab_CSS
-12/06/2019 11:53:00 devpinoyLogger Clicking on an Element : CreateAccountsButton_CSS
+12/06/2019 13:31:34 devpinoyLogger config file loaded
+12/06/2019 13:31:34 devpinoyLogger OR file loaded
+12/06/2019 13:31:38 devpinoyLogger Chrome Launched !!!
+12/06/2019 13:31:43 devpinoyLogger Navigated to:http://www.zoho.com
+12/06/2019 13:31:46 devpinoyLogger Clicking on an Element : Signin_CSS
+12/06/2019 13:31:47 devpinoyLogger Typing in an Element: Email_CSSValue of :reportrecipient2019@gmail.com
+12/06/2019 13:31:47 devpinoyLogger Typing in an Element: Password_CSSValue of :96gqee2022
+12/06/2019 13:31:47 devpinoyLogger Clicking on an Element : SigninButton_CSS
+12/06/2019 13:32:07 devpinoyLogger Clicking on an Element : gotoCRM_CSS
+12/06/2019 13:32:07 devpinoyLogger Clicking on an Element : AccountsTab_CSS
+12/06/2019 13:32:08 devpinoyLogger Clicking on an Element : CreateAccountsButton_CSS
+12/06/2019 13:32:09 devpinoyLogger Typing in an Element: accountname_IDValue of :selenium
+12/06/2019 13:32:13 devpinoyLogger Clicking on an Element : profile_CSS
+12/06/2019 13:32:17 devpinoyLogger Clicking on an Element : Signout_CSS

@@ -19,5 +19,7 @@ public class CreateAccountTest {
 			AccountsPage account = PageClass.menu.gotoAccounts();
 			CreateAccountPage cap = account.gotocreateaccount();
 			cap.createaccount(data.get("accountname"));	
+			
+			
 	}
 }

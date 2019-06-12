@@ -5,6 +5,7 @@ C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\live
 C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\utilities\MonitoringMail.java
 C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\listeners\CustomListeners.java
 C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\pages\ZohoAppPage.java
+C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\pages\ProfilePage.java
 C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\utilities\Xls_Reader.java
 C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\pages\crm\accounts\AccountsPage.java
 C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\pages\HomePage.java
@@ -18,4 +19,5 @@ C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\live
 C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\testcases\SignUpTest.java
 C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\utilities\ExtentManager.java
 C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\utilities\Utilities.java
+C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\testcases\LogoutTest.java
 C:\Users\sbandari\eclipse-workspace\PageObjectModelBasics\src\test\java\com\liveproj\pages\crm\accounts\CreateAccountPage.java

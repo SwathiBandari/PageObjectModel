@@ -1,100 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Wed_Jun_12_11_18_55_AEST_2019.jpg]]>
+      <![CDATA[Wed_Jun_12_13_28_26_AEST_2019.jpg]]>
     </line>
     <line>
-      <![CDATA[<a href=Wed_Jun_12_11_18_55_AEST_2019.jpg>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
-      <![CDATA[<a target="_blank" href=Wed_Jun_12_11_18_55_AEST_2019.jpg><img src=Wed_Jun_12_11_18_55_AEST_2019.jpg height=200 width=200></img></a>]]>
-    </line>
-    <line>
-      <![CDATA[Wed_Jun_12_11_19_19_AEST_2019.jpg]]>
-    </line>
-    <line>
-      <![CDATA[<a href=Wed_Jun_12_11_19_19_AEST_2019.jpg>Screenshot</a>]]>
+      <![CDATA[<a href=Wed_Jun_12_13_28_26_AEST_2019.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Jun_12_11_19_19_AEST_2019.jpg><img src=Wed_Jun_12_11_19_19_AEST_2019.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Wed_Jun_12_13_28_26_AEST_2019.jpg><img src=Wed_Jun_12_13_28_26_AEST_2019.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Wed_Jun_12_13_28_44_AEST_2019.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Wed_Jun_12_13_28_44_AEST_2019.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Jun_12_13_28_44_AEST_2019.jpg><img src=Wed_Jun_12_13_28_44_AEST_2019.jpg height=200 width=200></img></a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-06-12T01:18:50Z" name="Page Object Model" finished-at="2019-06-12T01:19:22Z" duration-ms="31797">
+  <suite started-at="2019-06-12T03:28:20Z" name="Page Object Model" finished-at="2019-06-12T03:28:47Z" duration-ms="26676">
     <groups>
     </groups>
-    <test started-at="2019-06-12T01:18:50Z" name="Login Test" finished-at="2019-06-12T01:18:59Z" duration-ms="9098">
+    <test started-at="2019-06-12T03:28:20Z" name="Login Test" finished-at="2019-06-12T03:28:29Z" duration-ms="8930">
       <class name="com.liveproj.testcases.LoginTest">
-        <test-method signature="loginTest(java.util.Hashtable)[pri:0, instance:com.liveproj.testcases.LoginTest@4e17913b]" started-at="2019-06-12T01:18:50Z" name="loginTest" data-provider="dp" finished-at="2019-06-12T01:18:53Z" duration-ms="2981" status="FAIL">
+        <test-method signature="loginTest(java.util.Hashtable)[pri:0, instance:com.liveproj.testcases.LoginTest@6e0cff20]" started-at="2019-06-12T03:28:20Z" name="loginTest" data-provider="dp" finished-at="2019-06-12T03:28:23Z" duration-ms="2799" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=June@2019$, runmode=Y, username=saanwisrika@gmail.com}]]>
+                <![CDATA[{password=96gqee2022, runmode=Y, username=reportrecipient2019@gmail.com}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[LoginTest Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: LoginTest Failed
-at org.testng.Assert.fail(Assert.java:96)
-at com.liveproj.testcases.LoginTest.loginTest(LoginTest.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Wed_Jun_12_11_18_55_AEST_2019.jpg]]>
+              <![CDATA[Wed_Jun_12_13_28_26_AEST_2019.jpg]]>
             </line>
             <line>
-              <![CDATA[<a href=Wed_Jun_12_11_18_55_AEST_2019.jpg>Screenshot</a>]]>
+              <![CDATA[<a href=Wed_Jun_12_13_28_26_AEST_2019.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Jun_12_11_18_55_AEST_2019.jpg><img src=Wed_Jun_12_11_18_55_AEST_2019.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Wed_Jun_12_13_28_26_AEST_2019.jpg><img src=Wed_Jun_12_13_28_26_AEST_2019.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- com.liveproj.testcases.LoginTest -->
     </test> <!-- Login Test -->
-    <test started-at="2019-06-12T01:18:59Z" name="Create Account Test" finished-at="2019-06-12T01:19:22Z" duration-ms="22661">
+    <test started-at="2019-06-12T03:28:29Z" name="Create Account Test" finished-at="2019-06-12T03:28:47Z" duration-ms="17691">
       <class name="com.liveproj.testcases.CreateAccountTest">
-        <test-method signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.liveproj.testcases.CreateAccountTest@1b4ae4e0]" started-at="2019-06-12T01:18:59Z" name="createAccountTest" data-provider="dp" finished-at="2019-06-12T01:19:18Z" duration-ms="19103" status="FAIL">
+        <test-method signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.liveproj.testcases.CreateAccountTest@bc4d5e1]" started-at="2019-06-12T03:28:29Z" name="createAccountTest" data-provider="dp" finished-at="2019-06-12T03:28:43Z" duration-ms="14113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,96 +66,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.InvalidSelectorException">
-            <message>
-              <![CDATA[invalid selector: Unable to locate an element with the xpath expression  because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NSWSYDNLP206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\sbandari\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54308}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: a9dff540ce037164c2b1df9e8517fb73
-*** Element info: {Using=xpath, value=}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NSWSYDNLP206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\sbandari\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54308}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: a9dff540ce037164c2b1df9e8517fb73
-*** Element info: {Using=xpath, value=}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.liveproj.base.TopMenu.gotoAccounts(TopMenu.java:29)
-at com.liveproj.testcases.CreateAccountTest.createAccountTest(CreateAccountTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
             <line>
-              <![CDATA[Wed_Jun_12_11_19_19_AEST_2019.jpg]]>
+              <![CDATA[Wed_Jun_12_13_28_44_AEST_2019.jpg]]>
             </line>
             <line>
-              <![CDATA[<a href=Wed_Jun_12_11_19_19_AEST_2019.jpg>Screenshot</a>]]>
+              <![CDATA[<a href=Wed_Jun_12_13_28_44_AEST_2019.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Jun_12_11_19_19_AEST_2019.jpg><img src=Wed_Jun_12_11_19_19_AEST_2019.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Wed_Jun_12_13_28_44_AEST_2019.jpg><img src=Wed_Jun_12_13_28_44_AEST_2019.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
       </class> <!-- com.liveproj.testcases.CreateAccountTest -->
     </test> <!-- Create Account Test -->
+    <test started-at="2019-06-12T03:28:47Z" name="Logout Test" finished-at="2019-06-12T03:28:47Z" duration-ms="4">
+    </test> <!-- Logout Test -->
   </suite> <!-- Page Object Model -->
 </testng-results>
