@@ -45,7 +45,8 @@ public class PageClass {
 	public static ExtentTest Test;
 	public static String browser;
 	
-	//update using Eclipse to Github
+	//update using Eclipse to Github adding more comments
+	
 
 	public PageClass() {
 		if (driver == null) {
